@@ -1,0 +1,378 @@
+/* All Page Styles*/
+
+
+#svgwrapper {
+  display:inline-block;
+  width:400px;
+  height:200px;
+  stroke: rgb(24, 24, 24);
+  fill: none;
+  position: relative;
+}
+
+.logo-path {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: calc(20% + 20px);
+    stroke-dasharray: 1943;
+    stroke-dashoffset: 1943;
+}
+
+.text { 
+    
+    stroke-width: 10;
+    animation: letter-animation 4s linear forwards;
+}
+
+@keyframes letter-animation {
+    0% {
+        stroke-dashoffset: 1943;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+
+
+
+.animate {
+ stroke-dasharray: 300;
+ stroke-dashoffset: 300;
+ animation: dash 5s linear forwards;
+}
+@keyframes dash {
+to {
+ stroke-dashoffset: 0;
+ }
+}
+
+
+
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family:cursive;
+    background-color: #ffffff;
+}
+
+body {
+    height: 712px;
+    width: 1440px;
+}
+
+section {
+    height: 712px;
+    width: 1440px;
+    padding-top: 20%;
+}
+
+.padLeft {
+    height: 712px;
+    width: 1440px;
+    padding-top: 22%;
+    padding-left: 25%;
+}
+
+h3 {
+    color: #776565;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 57px;
+    font-family: "Lucida Handwriting", "Segoe Script", cursive;
+}
+
+h1 {
+  font-family: "Lucida Handwriting", "Segoe Script", cursive;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(92, 134, 138);
+}
+
+h5 {
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+}
+
+#fadeIn {
+    animation-name: fadeIn;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#letterOne {
+    animation-name: waveMotion;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterTwo {
+    animation-name: waveMotion;
+    animation-delay: 200ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterThree {
+    animation-name: waveMotion;
+    animation-delay: 400ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterFour {
+    animation-name: waveMotion;
+    animation-delay: 600ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterFive {
+    animation-name: waveMotion;
+    animation-delay: 800ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterSix {
+    animation-name: waveMotion;
+    animation-delay: 1000ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterSeven {
+    animation-name: waveMotion;
+    animation-delay: 1200ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterEight {
+    animation-name: waveMotion;
+    animation-delay: 1400ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes waveMotion {
+    0% {
+        top: 320px;
+    }
+    50% {
+        top: 310px;
+    }
+    100% {
+        top: 320px;
+    }
+}
+
+
+
+/* Page 3 Animations */
+#feetF {
+    color: #D1C9B6;
+    position: absolute;
+    top: 317px;
+    left: 677px;
+    animation-name: feetLetters;
+    animation-duration: 1s;
+    animation-delay: 500ms;
+    animation-fill-mode: forwards;
+}
+
+#feetE1 {
+    color: #D1C9B6;
+    position: absolute;
+    top: 317px;
+    left: 696px;
+    animation-name: feetLetters;
+    animation-duration: 1s;
+    animation-delay: 1000ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#feetE2 {
+    color: #D1C9B6;
+    position: absolute;
+    top: 317px;
+    left: 713px;
+    animation-name: feetLetters;
+    animation-duration: 1s;
+    animation-delay: 1500ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+#feetT {
+    color: #D1C9B6;
+    position: absolute;
+    top: 317px;
+    left: 730px;
+    animation-name: feetLetters;
+    animation-duration: 1s;
+    animation-delay: 2000ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes feetLetters {
+    0% {
+        opacity: 0;
+        font-size: 88px;
+    }
+    100% {
+        color: #3a3323;
+        opacity: 1;
+        font-size: 48px;
+    }
+}
+
+#meetFirst {
+    color: #D1C9B6;
+    opacity: 0;
+    animation-name: meetFirst;
+    animation-delay: 2s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes meetFirst {
+    from {
+        margin-left: -150px;
+    }
+    to {
+        margin-left: 0px;
+        opacity: 1;
+        color: rgb(92, 134, 138);
+    }
+}
+
+#meetSecond {
+    position: absolute;
+    top: 374px;
+    color: #D1C9B6;
+    opacity: 0;
+    animation-name: meetSecond;
+    animation-delay: 2s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes meetSecond {
+    from {
+        margin-left: 368px;
+    }
+    to {
+        margin-left: 218px;
+        opacity: 1;
+        color: rgb(92, 134, 138);
+    }
+}
+
+
+body {
+  margin: 0;
+  display: grid;
+  height: 100dvh;
+  font-size: 1.5rem;
+}
+
+.centered-text {
+  position: relative;
+  align-self: center;
+  justify-self: center;
+  font-size: larger;
+  font-weight: bolder;
+  color: red;
+}
+
+.fade {
+  position: absolute;
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  font-size: larger;
+  font-weight: bolder;
+  color: rgba(109, 95, 105, 0.997)
+}
+
+.reverse {
+  animation-direction: alternate-reverse;
+}
+
+@keyframes fade {
+  0%, 50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
