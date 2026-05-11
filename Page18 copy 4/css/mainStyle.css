@@ -1,0 +1,296 @@
+/* All Page Styles*/
+
+
+#svgwrapper {
+  display:inline-block;
+  width:400px;
+  height:200px;
+  stroke: rgb(24, 24, 24);
+  fill: none;
+  position: relative;
+}
+
+.logo-path {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: calc(20% + 20px);
+    stroke-dasharray: 1943;
+    stroke-dashoffset: 1943;
+}
+
+.text { 
+    
+    stroke-width: 10;
+    animation: letter-animation 4s linear forwards;
+    text-align: center;
+}
+
+@keyframes letter-animation {
+    0% {
+        stroke-dashoffset: 1943;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+
+
+
+.animate {
+ stroke-dasharray: 300;
+ stroke-dashoffset: 300;
+ animation: dash 5s linear forwards;
+}
+@keyframes dash {
+to {
+ stroke-dashoffset: 0;
+ }
+}
+
+
+
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family:cursive;
+    background-color: #ffffff;
+}
+
+body {
+    height: 712px;
+    width: 1440px;
+}
+
+section {
+    height: 712px;
+    width: 1440px;
+    padding-top: 20%;
+}
+
+.padLeft {
+    height: 712px;
+    width: 1440px;
+    padding-top: 22%;
+    padding-left: 25%;
+}
+
+h3 {
+    color: #776565;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 57px;
+    font-family: "Lucida Handwriting", "Segoe Script", cursive;
+}
+
+h1 {
+  font-family: "Lucida Handwriting", "Segoe Script", cursive;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(92, 134, 138);
+}
+
+h5 {
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+}
+
+#fadeIn {
+    animation-name: fadeIn;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#letterOne {
+    animation-name: waveMotion;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterTwo {
+    animation-name: waveMotion;
+    animation-delay: 200ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterThree {
+    animation-name: waveMotion;
+    animation-delay: 400ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterFour {
+    animation-name: waveMotion;
+    animation-delay: 600ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterFive {
+    animation-name: waveMotion;
+    animation-delay: 800ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterSix {
+    animation-name: waveMotion;
+    animation-delay: 1000ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterSeven {
+    animation-name: waveMotion;
+    animation-delay: 1200ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterEight {
+    animation-name: waveMotion;
+    animation-delay: 1400ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes waveMotion {
+    0% {
+        top: 320px;
+    }
+    50% {
+        top: 310px;
+    }
+    100% {
+        top: 320px;
+    }
+}
+
+
+/* Page 18 Animations */
+
+@import url(https://fonts.googleapis.com/css?family=Hind:700);
+
+body {
+	font-family: cursive, sans-serif;
+	font-size: 900%;
+	color: black;
+	background: white;
+	text-align: center;
+}
+
+span {
+	color: transparent;
+	animation: blur 10s ease-out infinite;
+	-webkit-animation: blur 10s ease-out infinite;
+}
+
+span:nth-child(1) {
+	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+}
+span:nth-child(2) {
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+span:nth-child(3) {
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+span:nth-child(4) {
+	animation-delay: 0.4s;
+	-webkit-animation-delay: 0.4s;
+}
+span:nth-child(5) {
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+span:nth-child(6) {
+	animation-delay: 0.6s;
+	-webkit-animation-delay: 0.6s;
+}
+span:nth-child(7) {
+	animation-delay: 0.7s;
+	-webkit-animation-delay: 0.7s;
+}
+
+@keyframes blur {
+	0%		{text-shadow:  0 0 100px black; opacity:0;}
+	5%		{text-shadow:  0 0 90px black;}
+	15%		{opacity: 1;}
+	20%		{text-shadow:  0 0 0px black;}
+	80%		{text-shadow:  0 0 0px black;}
+	85%		{opacity: 1;}
+	95%		{text-shadow:  0 0 90px black;}
+	100%	{text-shadow:  0 0 100px black; opacity:0;}
+}
+
+@-webkit-keyframes blur {
+	0%		{text-shadow:  0 0 100px black; opacity:0;}
+	5%		{text-shadow:  0 0 90px black;}
+	15%		{opacity: 1;}
+	20%		{text-shadow:  0 0 0px black;}
+	80%		{text-shadow:  0 0 0px black;}
+	85%		{opacity: 1;}
+	95%		{text-shadow:  0 0 90px black;}
+	100%	{text-shadow:  0 0 100px black; opacity:0;}
+}
+
+
+
+
